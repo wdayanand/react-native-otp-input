@@ -188,7 +188,7 @@ export default class OTPInputView extends Component<InputProps, OTPInputViewStat
         const { clearInputs, placeholderCharacter, placeholderTextColor } = this.props
         const { color: defaultPlaceholderTextColor } = { ...defaultTextFieldStyle, ...codeInputFieldStyle }
         return (
-            <View pointerEvents="none" key={index + "view"} testID="inputSlotView">
+            <View  key={index + "view"} testID="inputSlotView">
                 <TextInput
                     testID="textInput"
                     underlineColorAndroid='rgba(0,0,0,0)'
