@@ -1,6 +1,6 @@
 {
   "name": "@wdayanand/react-native-otp-input",
-  "version": "1.3.11",
+  "version": "1.3.12",
   "description": "is a tiny JS library for one time passcode (OTP). Supports smart input suggestion on iOS and code autofill on Android (it will be filled when you press the copy button on the SMS notification bar) based on @twotalltotems/react-native-otp-input",
   "main": "./dist/index.js",
   "types": "./index.d.ts",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Twotalltotems/react-native-otp-input.git"
+    "url": "git+https://github.com/wdayanand/react-native-otp-input.git"
   },
   "keywords": [
     "react-native",
@@ -49,7 +49,8 @@
   "author": "TTT Studio (https://ttt.studio)",
   "contributors": [
     "Becky Wu <becky.wu@ttt.studio> (https://github.com/BeckyWu220)",
-    "Felipe Peña <felipe@penya.cl> (http://felipe.penya.cl)"
+    "Felipe Peña <felipe@penya.cl> (http://felipe.penya.cl)",
+    "TTT Studios <becky.wu@ttt.studio> (https://github.com/tttstudios)"
   ],
   "license": "MIT",
   "devDependencies": {
